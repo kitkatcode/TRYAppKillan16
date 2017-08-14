@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/physicalQuantityView"
+        android:text="@string/PHS"
+        android:layout_weight="5"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/valueView"
+        android:text="@string/Val"
+        android:layout_weight="5"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/valueView2"
+        android:text="@string/Val"
+        android:layout_weight="5"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/unitView"
+        android:text="@string/Unit"
+        android:layout_weight="5"
+        android:gravity="center"
+        />
+
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.mg.tryappkillan.form.help;
+package com.example.mg.tryappkillan.form;
 
 import android.content.Context;
 import android.location.LocationManager;
@@ -202,7 +202,7 @@ public class DataFragment2 extends Fragment{ // TODO - CLICK  implements View.On
         }
     } */
 
-    public interface OnFragmentInteractionListener {
+     interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }

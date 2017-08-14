@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--I CANNOT CHANGE BY THIS LAYOUT text-->
+    <string-array name="info">
+        <item>F</item>
+        <item>U</item>
+    </string-array>
+</resources>
