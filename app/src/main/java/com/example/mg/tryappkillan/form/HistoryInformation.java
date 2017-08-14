@@ -131,7 +131,6 @@ public class HistoryInformation extends AppCompatActivity implements  clickMenu 
     @Override
     public boolean clickActivity2(MenuItem item) {
         myMenu.clickActivity2();
-        
         return false;
     }
     @Override
