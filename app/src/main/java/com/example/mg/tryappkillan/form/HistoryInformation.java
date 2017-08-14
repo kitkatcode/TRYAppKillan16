@@ -67,8 +67,6 @@ public class HistoryInformation extends AppCompatActivity implements  clickMenu 
         if (row.getCount() > 0) {
             row.move(row.getCount() - extras.getInt("SESSION_ID"));
 
-
-
             vdate.setText(row.getString(row.getColumnIndex("datetime")));
             vdistance.setText(row.getString((row.getColumnIndex("distance"))));
 
@@ -81,7 +79,6 @@ public class HistoryInformation extends AppCompatActivity implements  clickMenu 
            vavgspeed.setText(row.getDouble(row.getColumnIndex("stoppertime")) > 0 ? String.valueOf( Math.round(row.getDouble(row.getColumnIndex("distance"))*3600 / row.getInt(row.getColumnIndex("stoppertime")))): String.valueOf(0));
            vmaxspeed.setText(String.valueOf(Math.round(row.getDouble(row.getColumnIndex("maxspeed")))));
         }
-
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         mNavigationView = (NavigationView) findViewById(R.id.navmenu);
 
@@ -94,7 +91,6 @@ public class HistoryInformation extends AppCompatActivity implements  clickMenu 
             // method invoked only when the actionBar is not null.
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
-
         myMenu = new MyMenu();
         myMenu.Menu(this);
 
@@ -125,7 +121,7 @@ public class HistoryInformation extends AppCompatActivity implements  clickMenu 
         myMenu.clickStatistics();
         return false;
     }
-
+    /*This is click Activity*/
     @Override
     public boolean clickActivity(MenuItem item) {
         myMenu.clickActivity();
