@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Biegacz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_history_act">HistoryACT</string>
+
+
+    <!--Buttons-->
+    <string name="menu">Menu</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string-array name="kind_of_statistic">
+        <item>Wszystkie</item>
+        <item>Rok</item>
+        <item>Miesiąc</item>
+        <item>Tydzień</item>
+        <!--<item>Dzienne</item>-->
+    </string-array>
+    <string-array name="physical_quantity">
+        <item>Dystans</item>
+        <item>Spalone kalorie</item>
+        <item>Czas trwania</item>
+        <item>Średnia prędkość</item>
+        <item>Maksymalna prędkość</item>
+    </string-array>
+
+
+<string name="PHS">PhysicalQuantitity</string>
+<string name="Val">Value</string>
+<string name="Unit">Unit</string>
+
+
+    <string-array name="unit">
+        <item>" "[m]</item>
+        <item>" "[kcal]</item>
+        <item> </item>
+        <item>" "[km/h]</item>
+        <item>" "[km/h]</item>
+    </string-array>
+
+    <string name="open"> Otwórz</string>
+    <string name="close"> Zamknij</string>
+    <string name="physical_quantity" />
+
+</resources>

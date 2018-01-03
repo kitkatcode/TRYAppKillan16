@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.app">
+
+
+    <item android:id="@+id/nav_start"
+        android:title="Bieg"
+        android:icon="@mipmap/ic_runer_silhouette_running_fast"
+        android:onClick="clickActivity"/>
+    <item android:id="@+id/nav_start2"
+        android:title="Bieg wyczynowy"
+        android:icon="@mipmap/ic_running_at_finish_line"
+        android:onClick="clickActivity2"
+       />
+    <item android:id="@+id/nav_history"
+        android:title="Historia"
+        android:icon="@mipmap/ic_list"
+        android:onClick="clickHistory"/>
+    <item android:id="@+id/nav_statistic"
+        android:title="Statystyka"
+        android:icon="@mipmap/ic_growth"
+        android:onClick="clickStatistics"/>
+    <item android:id="@+id/nav_logout"
+        android:title="@string/wyloguj"
+        android:icon="@mipmap/exit"
+        android:onClick="clickLogout"/>
+
+</menu>

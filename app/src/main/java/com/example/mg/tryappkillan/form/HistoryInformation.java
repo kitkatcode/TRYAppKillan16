@@ -115,7 +115,7 @@ public class HistoryInformation extends AppCompatActivity implements  clickMenu 
         myMenu.clickHistory();
         return false;
     }
-
+    /*This is click Statistics*/
     @Override
     public boolean clickStatistics(MenuItem item) {
         myMenu.clickStatistics();
@@ -133,6 +133,7 @@ public class HistoryInformation extends AppCompatActivity implements  clickMenu 
         myMenu.clickActivity2();
         return false;
     }
+    /*This is click clickLogout*/
     @Override
     public boolean clickLogout(MenuItem item) {
         myMenu.clickLogout(session);
