@@ -46,38 +46,4 @@
         />
     </android.support.v4.widget.DrawerLayout>
 
-    <!--Dlaczego to wywołuje błąd?-->
-    <!--  <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:background="?attr/colorPrimaryDark"
-          android:orientation="horizontal"
-          style="?android:attr/buttonBarStyle">
-
-          <Button
-              android:layout_width="0dp"
-              android:layout_weight="1"
-              android:layout_height="50dp"
-              android:gravity="center"
-              android:text="@string/menu"
-              android:textSize="16sp"
-              android:id="@+id/button1"
-              android:onClick="clickMenu"
-              android:textColor="@color/common_google_signin_btn_text_light_focused"
-              style="?android:attr/buttonBarButtonStyle"
-              />
-          <Button
-
-              android:layout_width="0dp"
-              android:layout_weight="1"
-              android:layout_height="50dp"
-              android:gravity="center"
-              android:text="@string/wyloguj"
-              android:textSize="16sp"
-              android:id="@+id/button2"
-              android:onClick="clickLogout"
-              android:textColor="@color/common_google_signin_btn_text_light_focused"
-              style="?android:attr/buttonBarButtonStyle"
-
-              />
-      </LinearLayout>-->
+   
